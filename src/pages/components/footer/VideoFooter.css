@@ -58,3 +58,12 @@
     transform:  translateX(-100%);
   }
 }
+
+@media only screen and (max-widht: 440px) {
+  .videoFooter__music{
+    bottom: 22%;
+  }
+  .videoMusicFooter__text{
+    width: 78%
+  }
+}

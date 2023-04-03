@@ -27,3 +27,12 @@
 .app__videos::-webkit-scrollbar{
   display: none;
 }
+
+@media only screen and (max-width: 440px) {
+  .app__videos{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%
+  }
+ 
+}
